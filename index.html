@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body contenteditable="false">
+    <header id="header">
+        <div class="logo">LOGO</div>
+        <nav class="nav" id="navmenu">
+                 <svg id="close" class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#fff"><path d="M256-192.35 192.35-256l224-224-224-224L256-767.65l224 224 224-224L767.65-704l-224 224 224 224L704-192.35l-224-224-224 224Z"/></svg>
+ 
+                 <ul class="nav-list">
+                     <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                     <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                     <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                     <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                     <li class="nav-item"><a href="#" class="nav-link">Orders</a></li>
+                 </ul>
+         </nav> 
+             <button class="order-btn">Order Now</button>
+             <svg id="bars" class="bars" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#fff"><path d="M111.87-228.28v-91h736.26v91H111.87Zm0-206.22v-91h736.26v91H111.87Zm0-206.22v-91h736.26v91H111.87Z"/></svg>
+
+             <div class="hide" id="hide"></div>
+    </header>
+
+    <section class="home section" id="home">
+        <div class="home-text">
+            <h1><span style="color:#FFC100; font-size: 60px;">Y</span>ummy <span style="color:#FFC100; font-size: 60px;">F</span>oods</h1>
+            <p><span style="font-size: 30px;">L</span>orem ipsum dolor, sit amet consectetur adipisicing elit. Animi ratione aut a adipisci ipsa repudiandae similique sint dolor quod assumenda nihil deleniti officiis provident, quisquam itaque cumque id. Temporibus, itaque.</p>
+        </div>
+        <div class="home-btn">
+            <button class="home-btn-left">Order</button>
+            <span class="home-btn-line"></span>
+            <button onclick="location.href='#bat'" class="home-btn-right">Book a Table</button>
+        </div>
+    </section>
+
+    <section class="offers section">
+        <h1><span style="color:#FFC100; font-size: 50px;">T</span>oday's <span style="color:#FFC100; font-size: 50px;">S</span>pecial</h1>
+        <div class="offers-cards">
+            <div class="offers-card c1">
+                <div class="ocimg"></div>
+                <div class="ocinfo">
+                    <h2><span style="color:#FFC100; font-size: 40px;">T</span>asty <span style="color:#FFC100; font-size: 40px;">B</span>urger</h2>
+                    <p>Get this at just <span style="color: #FFC100; font-size: 30px; font-family: 'Kaushan Script', cursive;">Rs.199</span></p>
+                    <button class="of-btn">View <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="offers-card c2">
+                <div class="ocimg"></div>
+                <div class="ocinfo">
+                    <h2><span style="color:#FFC100; font-size: 40px;">Y</span>ummy <span style="color:#FFC100; font-size: 40px;">P</span>izza</h2>
+                    <p>Get this at just <span style="color: #FFC100; font-size: 30px; font-family: 'Kaushan Script', cursive;">Rs.299</span></p>
+                    <button class="of-btn">View <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu section" id="menu">
+        <h1><span style="color:#FFC100; font-size: 50px;">M</span>enu</h1>
+        <div class="menu-search">
+            <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search for lunch...">
+            <button class="menu-search-btn">Search</button>
+        </div>
+        <div class="menu-cards">
+            <div class="menu-card m1">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Meals</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m2">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Curry</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m3">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Biryani</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m4">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Soup</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m5">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Pizza</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m6">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Burger</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m7">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Pasta</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+            <div class="menu-card m8">
+                <div class="mcimg"></div>
+                <div class="mcinfo">
+                    <h2>Ice Cream</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button class="menu-btn">View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service section" id="service">
+        <h1><span style="color:#FFC100; font-size: 50px;">S</span>ervices</h1>
+        <div class="service-cards">
+            <div class="ser-card">
+                <img src="images/pick.png" alt="">
+                <h2>Pick Here</h2>
+                <p>You can take your food in our restaurant!!</p>
+            </div>
+            <div class="ser-card">
+                <img src="images/delivery.png" alt="">
+                <h2>Order Online</h2>
+                <p>You can order food to your door steps through online orders</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bat section" id="bat">
+        <div class="bat-content">
+            <div class="bat-img"></div>
+            <div class="bat-right">
+                <h1>Book A Table</h1>
+                <div class="bat-right-box">
+                    <form action="">
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="email" id="email" placeholder="Email">
+                        <input type="datetime-local" name="" id="" placeholder="Date & Time">
+                        <input type="number" name="" id="number" placeholder="No. of people">
+                        <textarea name="" id="" cols="30" rows="4" placeholder="Special Order"></textarea>
+                        <button>Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="contact-addr">
+            <h2>Address</h2>
+            <p>Door No.11-9-2, beside Reliance Mart, Seshayya Metta, Rajamahendravaram, Andhra Pradesh 533101</p>
+        </div>
+        <div class="contact-details">
+            <h2>Details</h2>
+            <ul>
+                <li>Menu</li>
+                <li>Reservation</li>
+                <li>Timings</li>
+            </ul>
+        </div>
+        <div class="contact-num">
+            <h2>Contact us</h2>
+            <ul>
+                <li>+91 0123456789</li>
+                <li>restaurant@contact.com</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="dev">
+        <h5>Developed by <span style="color: #FFC100; font-size: 18px;">Aditya</span></h5>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </section>
+
+    <a href="#home" class="scroll-to-top" id="scrollToTop"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
